@@ -1,6 +1,6 @@
 <template name="userManagement">
-  <div class="user-container">
-    <div class="panel">
+  <div class="user-container effect2">
+    <div class="panel fix-panel">
       <div class="panel-body">
         {{# if currentUser}}
         <!-- Message for logged in user -->
@@ -29,7 +29,7 @@
           <div class="input-group">
             <input class="form-control" id="login-password" placeholder="Password" type="password">
               <span class="input-group-btn">
-                <button class="btn btn-primary button fill-input" type="button" id="login">Log in</button>
+                <span class="glyphicon glyphicon-ok check" aria-hidden="true"></span><button class="btn btn-primary button fill-input" type="button" id="login">Log in</button>
               </span>
           </div><!-- /input-group -->
         </div>
